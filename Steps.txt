@@ -1,0 +1,24 @@
+1) so first we are creating server Express
+so wee need to install packages
+i.e npm init -y 
+
+2) next wee need to create home.js(konsa bhi nam de sakte file ko).  
+
+3) after that we need to install another packages
+i.e npm i express nodemon
+
+
+4) after we need to import express in home.js 
+5) we also need .gitignore file to ingnore node modules and .env file.
+6) and also install dotenv package to use this file
+++++++Now Server is started Successfully++++++++
+
+so we have to connect our project to github
+1. first create git repository 
+2. after in vs code run below commands
+ git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/(tumhara user name)/MERN-Project.git
+git push -u origin main
