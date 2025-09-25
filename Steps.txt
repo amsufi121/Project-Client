@@ -40,3 +40,12 @@ git push origin main
 11) connect mongo url to .env file 
 12) now mongodb succesfly connected 
 
+13) now create routes file for register and login
+14) inside routes create auth.js file for authentication 
+15) inside auth.js file import express 
+16) create another folder Controller and inside create authController.js
+16) in authController create register functionality, login functionality
+17) after in auth.js file create routes for register and for login 
+18) in auth.js import register and login function 
+19) and create post method for route like "route.post("/register", register);"
+20) in home.js we need to define our route app.use("/api/auth", authRoute);
